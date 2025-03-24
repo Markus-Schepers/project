@@ -56,21 +56,15 @@ inflation %>%
   theme(legend.position = c(.1, .9))
 ```
 
-```{r}
-print("Hello World")
-```
 
-```{python}
-print("Hello World! Python here, do you miss R already?")
-```
 
 ```{r}
-usethis::use_git_config(
-  user.name = "Markus Schepers", 
-  user.email = "markus.schepers@uni-mainz.de",
-  init.defaultBranch = "main")
+#usethis::use_git_config(
+#  user.name = "Markus Schepers", 
+#  user.email = "markus.schepers@uni-mainz.de",
+#  init.defaultBranch = "main")
 
-usethis::use_git()
+#usethis::use_git()
 
 ```
 
